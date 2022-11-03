@@ -1,0 +1,16 @@
+
+<div class="card" *ngFor="let item of dataCard">
+    <div class="imgCard">
+        <img src="{{item.image}}">
+        <button>
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add_shopping_cart"></mat-icon>
+        </button>
+    </div>
+    <div class="cardTexto">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.category }}</p>
+        <span>$ {{ item.price }}</span>
+    </div>
+</div>
+
+

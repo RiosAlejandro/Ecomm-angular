@@ -1,0 +1,108 @@
+.contact{
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    display: flex;
+}
+
+.imgContact{
+    background-image: url('../../../assets/contact.jpg');
+    height: 40rem;
+    width: 20%;
+    position: absolute;
+    z-index: 90;
+    background-size: cover;
+}
+
+.areaContact{
+    margin-left: 30%;
+    padding-top: 2rem;
+
+    h3{
+        font-size: 3rem;
+    }
+
+    .subArea{
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 1.4rem;
+
+        .sub1{
+            color:black;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+        }
+        .separador{
+            //display: block;
+            margin-left: 72px;
+            margin-right: 72px;
+            width: 2px;
+            height: 200px;
+            background-color: #cccc;
+        }
+        .sub2{
+            color:black;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+
+            button{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-evenly;
+                align-items: center;
+                height: 4rem;
+                background: rgb(41, 228, 104); //rgb(47, 255, 116)
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            button:hover{
+                background: rgb(32, 184, 83);
+                color: #384647;
+                transition: 0.4s linear;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .contact{
+        height: auto;
+    }
+
+    .imgContact{
+        display: none;
+    }
+
+    .areaContact{
+        margin-left: auto;
+        margin-right: auto;
+
+        h3{
+            display: table-caption;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .subArea{
+            display: flex;
+            flex-direction: column;
+            
+            .separador{
+                margin-left: 20px;
+                margin-right: 20px;
+                width: auto;
+                height: 2px;
+            }
+
+            .sub1, .sub2{
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

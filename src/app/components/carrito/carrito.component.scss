@@ -1,0 +1,66 @@
+.carrito{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(168, 171, 175, 0.863);
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    visibility: hidden;
+}
+
+.navCarrito{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+}
+.navCarrito button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+.navCarrito button:hover{
+    cursor: pointer;
+}
+
+.navCarrito span{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.navCarrito span .mat-icon{
+    font-size: 1.6rem;
+}
+
+.comprasCarrito{
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonCarrito{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botonCarrito button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    width: 20rem;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    color: #384647;
+}
+.botonCarrito button:hover{
+    cursor: pointer;
+}

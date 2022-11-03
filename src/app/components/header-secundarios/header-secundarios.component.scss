@@ -1,0 +1,55 @@
+.header1{
+    background-image: url('../../../assets/port2.jpg');
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+}
+.header2{
+    background-image: url('../../../assets/port4.jpg');
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+}
+
+app-nav{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.headerTitulo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 6rem;
+    color: #f2f2f2;
+}
+.headerTitulo h2{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.headerTitulo p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 30%;
+}
+.headerTitulo span{
+    border-bottom: 3px solid #f2f2f2;
+    width: 5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width:768px) {
+    .headerTitulo{
+        margin-top: 3rem;
+
+        h2{
+            font-size: 3rem;
+        }
+        p{
+            width: 80%;
+            background-color: rgba(44, 43, 40, 0.4);
+        }
+    }
+    
+}

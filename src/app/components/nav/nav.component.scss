@@ -1,0 +1,39 @@
+
+
+.navegacion{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.5rem;
+    height: 14vh;
+    width: auto;
+    color: #f2f2f2;
+    font-size: 2rem;
+}
+.app-logo{
+    width: 6rem;
+}
+
+.carrito{
+    width: 6rem;
+}
+.carrito:hover{
+    cursor: pointer;
+}
+.mat-icon {
+    font-size: 1.6rem;
+}
+
+@media (max-width:768px) {
+    .navegacion{
+        font-size: 1.2rem;
+    }
+    .app-logo{
+        width: 5rem;
+    }
+    
+    .carrito{
+        width: 5rem;
+    }
+}

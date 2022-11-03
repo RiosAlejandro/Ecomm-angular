@@ -1,0 +1,36 @@
+<app-header-secundarios
+    tituloHeader="Behold our FAQ"
+    textoHeader="All right, friends. Let’s do this. This section will cover
+                 basic, frequently asked questions for e-commerce 
+                 merchants."
+    classHeader="header1"
+></app-header-secundarios>
+
+<div class="faqArticle">
+    <app-article-secundary
+        tituloArticle="How long does shipping take?"
+        textoArticle="Now that’s a frequent one all right, ain’t it? Your answer to this should 
+                      manage customer expectations. Just like a good checkout flow should. Tell them the truth:"
+        [vinetaArticle]="['US shipping will take between 3 to 5 business days',
+                          'International shipping will take between 5 and 10 business days.',
+                          'Mars shipping will be automatically redirected to Elon Musk’s Twitter account.'
+                          ]"
+    ></app-article-secundary>
+    <app-article-secundary
+        tituloArticle="How do refunds and returns work?"
+        textoArticle="It happens. Even the most beautiful of plants will disappoint someone. Again, tell it like it is:"
+        [vinetaArticle]="['All discounted items sales are final.',
+                          'If you’d like another version of your item, please use the return label. Instructions are printed on its back.',
+                          'If your item is damaged or not functioning correctly, email us at info@planty.com, and we’ll refund you + send you a new one ASAP!'
+                          ]"
+    ></app-article-secundary>
+    <app-article-secundary
+        tituloArticle="How do you handle sensitive customer information?"
+        textoArticle="GDPR, am I right? Make sure you’re as transparent as possible with your data handling process. Or, if you’re using Snipcart, just refer to our ToS and DPA."
+    ></app-article-secundary>
+
+</div>
+
+<app-contact></app-contact>
+
+<app-footer></app-footer>

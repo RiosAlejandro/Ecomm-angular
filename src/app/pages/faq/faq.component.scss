@@ -1,0 +1,15 @@
+.faqArticle{
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #f7f7f7;
+    //margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width:768px) {
+    .faqArticle{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

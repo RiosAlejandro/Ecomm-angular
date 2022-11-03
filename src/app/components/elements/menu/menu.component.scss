@@ -1,0 +1,14 @@
+.listaNavegacion{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.listaNavegacion li{
+    margin-right: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+}
+.listaNavegacion li:hover{
+    cursor: pointer;
+}

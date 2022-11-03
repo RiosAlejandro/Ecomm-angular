@@ -1,0 +1,54 @@
+.header{
+    height: 120vh;
+    width: 100%;
+    background-image: url('../../../assets/port5.jpg');
+    position: relative;
+    color: #f2f2f2;
+    background-size: cover;
+}
+
+.headerTitulo{
+    text-align: center;
+    margin-top: 27vh;
+}
+.headerTitulo h1{
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+.headerTitulo button{
+    background-color: transparent;
+    padding: 1rem;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.headerTitulo button:hover{
+    cursor: pointer;
+    border: 3px solid #f2f2f2;
+    font-size: 1rem;
+    transition: border .5s linear, font-size .5s linear;
+}
+
+.headerSubtitulo{
+    position: absolute;
+    top: 90vh;
+    left: 3rem;
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .headerTitulo{
+        margin-top: 10vh;
+    }
+    .headerTitulo h1{
+        font-size: 2.2rem;
+    }
+    .headerSubtitulo{
+        top: 80vh;
+    }
+}

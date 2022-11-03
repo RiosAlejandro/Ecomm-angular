@@ -1,0 +1,81 @@
+.section{
+    margin-top: 7rem;
+    width: 100%;
+    position: relative;
+    height: 40rem;
+}
+.sectionImg{
+    width: 50%;
+    //display: inline-block;
+    float: left;
+    height: 40rem;
+}
+.sectionImg img{
+    height: 40rem;
+    width: 100%;
+}
+.sectionTitulo{
+    width: 50%;
+    background-image: url('../../../assets/simp1.jpg');
+    height: 40rem;
+    float: right;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 2.5rem;
+    padding-left: 4rem;
+}
+.sectionTitulo h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 25%;
+}
+
+.sectionTitulo p{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sectionTitulo button{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.sectionTitulo button:hover{
+    cursor: pointer;
+    border: 3px solid #f2f2f2;
+    font-size: 1rem;
+    transition: border .5s linear, font-size .5s linear;
+}
+
+@media (max-width:768px) {
+    .section{
+        height: 25rem;
+        margin-bottom: 3rem;
+        margin-top: 1px;
+    }
+    .sectionImg{
+        display: none;
+    }
+    .sectionTitulo{
+        width: 100%;
+        position: relative;
+        height: 25rem;
+
+    }
+    .sectionTitulo h2{
+        margin-top: 5%;
+        //text-align: center;
+    }
+}

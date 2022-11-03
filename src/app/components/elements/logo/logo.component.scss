@@ -1,0 +1,11 @@
+.navegacionLogo{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.navegacionLogo:hover{
+    cursor: pointer;
+}
+.mat-icon {
+    font-size: 1.6rem;
+}
